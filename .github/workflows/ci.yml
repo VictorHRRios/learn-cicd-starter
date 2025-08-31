@@ -21,6 +21,7 @@ jobs:
       - name: run go tests
         run: (go test ./... -cover)
 
+  format-tests:
     name: formatting tests
     runs-on: ubuntu-latest
 
